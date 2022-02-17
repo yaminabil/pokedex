@@ -20,8 +20,11 @@ class Show extends React.Component {
             
             
             <h1> {pokemon.name}</h1>
-            <img src={pokemon.img+".jpg"} />
+            <img src={pokemon.img+".jpg"}/>
+            <h2>Power : {pokemon.power} </h2>
+            <h2>{pokemon.img}</h2>
             </div>
+            
           
            
 
